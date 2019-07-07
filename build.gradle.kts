@@ -25,4 +25,4 @@ tasks {
     }
 }
 
-defaultTasks = listOf("clean", "asciidoctor")
+defaultTasks("clean", "asciidoctor")
